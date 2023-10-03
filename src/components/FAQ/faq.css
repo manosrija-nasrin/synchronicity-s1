@@ -14,6 +14,10 @@
 }
 
 .panel__label {
+  height: 6rem;
+  border: none;
+  border-radius: 19px;
+  position: relative;
   display: block;
   width: 100%;
   background: none;

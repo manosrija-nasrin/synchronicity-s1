@@ -1,4 +1,4 @@
-import "./prizes.css";
+import "./Prizes.css";
 
 function PrizeHeading(props) {
   return (
@@ -8,7 +8,7 @@ function PrizeHeading(props) {
   );
 }
 
-function FirstPrize(props) {
+function Prize(props) {
   return (
     <div className="Prizes">
       {props.icon}
@@ -17,5 +17,3 @@ function FirstPrize(props) {
     </div>
   );
 }
-
-export { FirstPrize, PrizeHeading };

@@ -1,14 +1,9 @@
-import React from "react";
-import "./team.css";
-import { Btn } from "../Top-division-components/Top-division-components.jsx";
+import "./Team.css";
 
 function JoinTeam({ placeholder, formLink, content }) {
   return (
     <div className="joinT">
       <h3>{content} </h3>
-      <a href={formLink}>
-        <Btn type={placeholder} overlay="Fill the form" link={formLink} />
-      </a>
     </div>
   );
 }
