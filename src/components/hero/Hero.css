@@ -29,13 +29,13 @@
   /* font-size: px; */
   font-weight: 600;
   height: 45px;
-  top: -9px;
+  margin-top: 10px;
   justify-content: center;
   outline: none;
   padding: 0 0px;
   transition: all 0.1s ease-in 0s;
   white-space: nowrap;
-  width: 10%;
+  width: 50%;
 }
 
 /* .dis-button {
@@ -85,18 +85,47 @@
 }
 
 .shortjoin {
-  font-size: 2rem;
+  font-size: 1.25rem;
+  margin: 20px 0px;
 }
 
 .Myinfo {
   text-align: left;
-  margin-left: 10vh;
+  margin: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .Myinfo{
+    flex-direction: column;
+  }
+}
+@media (min-width: 1000px){
+  .Myinfo{
+    flex-direction: row;
+  }
 }
 
 .Myinfo p {
-  width: 70%;
+  max-width: 600px;
 }
-
+.button{
+  align-items: center;
+  background-color: #7289da;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  height: 45px;
+  outline: none;
+  padding: 0 32px;
+  transition: all .1s ease-in 0s;
+  white-space: nowrap;
+  width: 200px;
+  margin: 7px;
+}
 /* Over lay effect */
 
 .overlay {
@@ -151,7 +180,8 @@ button:hover .overlay {
   }
   .Myinfo {
     text-align: center;
-    margin-left: 0;
+    margin: 0;
+    margin-top: 20px;
   }
   .Myinfo p {
     font-size: 1.9rem;
@@ -164,9 +194,9 @@ button:hover .overlay {
     font-weight: 500;
     width: 60%;
   }
-  .dis-button {
+  /* .dis-button {
     width: 30%;
-  }
+  } */
   .svgbtn {
     height: "12px";
     width: "12px";
@@ -189,9 +219,9 @@ button:hover .overlay {
     font-weight: 500;
     width: 50%;
   }
-  .dis-button {
+  /* .dis-button {
     width: 20%;
-  }
+  } */
   .svgbtn {
     height: "12px";
     width: "12px";
@@ -214,10 +244,10 @@ button:hover .overlay {
     font-weight: 500;
     width: 70%;
   }
-  .dis-button {
+  /* .dis-button {
     width: 25%;
     top: 10px;
-  }
+  } */
   .svgbtn {
     height: "12px";
     width: "12px";
@@ -240,9 +270,9 @@ button:hover .overlay {
     font-weight: 500;
     width: 70%;
   }
-  .dis-button {
+  /* .dis-button {
     width: 25%;
-  }
+  } */
   .svgbtn {
     height: "12px";
     width: "12px";
