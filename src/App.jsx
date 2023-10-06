@@ -5,7 +5,7 @@ import Themes from "./components/themes/Themes.jsx";
 import Timeline from "./components/timeline/Timeline.jsx";
 import Sponsors from "./components/sponsors/Sponsors.jsx";
 import Footer from "./components/footer/Footer";
-
+import { Prize } from "./components/prizes/prizes";
 import { Accordion } from "./components/FAQ/faq.jsx";
 import { frequentlyAskedQuestions } from "./data/FAQ.js";
 
@@ -13,7 +13,7 @@ import pattern from "./pattern.png";
 
 function App() {
   return (
-    <>
+    <div style={{display:"flex", flexDirection:"column", justifyContent:"center", textAlign:"center"}}>
       <Navbar />
       <main style={{ backgroundImage: `url(${pattern})` }}>
         <Hero />
@@ -24,7 +24,7 @@ function App() {
         <Themes />
 
         <h1>Prizes</h1>
-
+        <Prize/>
         <h1>Hackathon TimeLine</h1>
         <Timeline />
 
@@ -43,7 +43,7 @@ function App() {
         ))}
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

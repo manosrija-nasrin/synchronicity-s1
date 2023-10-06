@@ -1,19 +1,24 @@
 import "./Prizes.css";
-
-function PrizeHeading(props) {
+import { Prizeinfo } from "../../data/prizesData";
+export function Prize() {
   return (
-    <div className="PrizeHeading">
-      <h1>{props.type}</h1>
+    <div className="grid">
+      {/* <h1>{props.type}</h1> */}
+      {
+        Prizeinfo.map((element)=>(
+          <PrizeItem prize={element}/>
+        ))
+      }
     </div>
   );
 }
 
-function Prize(props) {
+function PrizeItem({prize}) {
   return (
-    <div className="Prizes">
-      {props.icon}
-      <h2>{props.type}</h2>
-      <p>{props.content}</p>
+    <div className="theme_item" style={{height:"200px"}}>
+      <div className="icon" >{prize.icon}</div>
+      <h2>{prize.type}</h2>
+      <p>{prize.content}</p>
     </div>
   );
 }

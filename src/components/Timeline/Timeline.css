@@ -100,3 +100,9 @@
 .row section p{
   margin: 10px 0 17px 0;
 }
+
+@media (max-width: 710px) {
+  .row section .details{
+    flex-direction: column;
+  }
+}
