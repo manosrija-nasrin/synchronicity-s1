@@ -1,37 +1,43 @@
-export const PrizeData = [
+export const prizesData = [
   {
-    icon: './icons/goldTrophy.svg',
-    type: "Overall First",
+    icon: "./icons/goldTrophy.svg",
+    type: "First Prize",
     content:
-      "The first overall prize will be given to a project that outstands all other submissions.",
+      "The first prize will be given to a project that outstands all other submissions.",
+
+    cashComponent: 10000,
   },
   {
-    icon: './icons/silverTrophy.svg',
-    type: "Overall Second",
+    icon: "./icons/silverTrophy.svg",
+    type: "Second Price",
     content:
-      "The second overall prize will be given to the second-best project in the hackathon.",
+      "The second prize will be given to the second-best project in the hackathon.",
+    cashComponent: 8000,
   },
   {
-    icon: './icons/bronzeTrophy.svg',
-    type: "Overall Third",
+    icon: "./icons/bronzeTrophy.svg",
+    type: "Third Price",
     content:
-      "The third overall prize will be given to the third-best project in the hackathon.",
+      "The third prize will be given to the third-best project in the hackathon.",
+    cashComponent: 5000,
   },
   {
-    icon: './icons/trophy.svg',
-    type: " Best Women Team",
+    icon: "./icons/goldTrophy.svg",
+    type: "Best Innovative Idea",
     content:
       "Your project will qualify for this category if your all team members are women.",
+    cashComponent: 0,
   },
   {
-    icon: './icons/trophy.svg',
-    type: "Best DDU Team",
-    content:
-      "Your project will qualify for this category if your all team members are from DDU.",
+    icon: "./icons/unique.svg",
+    type: "Special Mentions",
+    content: "Thinking too out of the box, huh?",
+    cashComponent: 0,
   },
   {
-    icon:'./icons/trophy2.svg',
-    type: "More prizes",
-    content: "More prizes will be revealed later",
+    icon: "./icons/congrats.svg",
+    type: "More Prizes",
+    content: "More prizes will be revealed later...",
+    cashComponent: 0,
   },
 ];

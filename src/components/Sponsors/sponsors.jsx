@@ -1,3 +1,5 @@
+import SectionTitle from "../lib/SectionTitle";
+
 import titleSponsors from "../../data/sponsorsData/titleSponsors";
 import goldSponsors from "../../data/sponsorsData/goldSponsors";
 import silverSponsors from "../../data/sponsorsData/silverSponsors";
@@ -31,7 +33,7 @@ const sponsorLists = [
 
 function Sponsor(props) {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex items-center justify-center">
       <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
         <img src={props.sponsorLogoURL} alt={props.name} className="w-60" />
       </a>
@@ -42,8 +44,8 @@ function Sponsor(props) {
 function SponsorList({ name, list }) {
   return (
     <>
-      <h1 className="">{name}</h1>
-      <section className="flex flex-wrap p-8 gap-16 items-center justify-center">
+      <SectionTitle title={name} fontSize={"28"} />
+      <section className="flex flex-wrap items-center justify-center gap-16 p-8">
         {list.map(Sponsor)}
       </section>
     </>
@@ -52,8 +54,11 @@ function SponsorList({ name, list }) {
 
 export default function Sponsors() {
   return (
-    <section className="flex flex-col items-center justify-center">
-      {sponsorLists.map(SponsorList)}
+    <section>
+      <SectionTitle title={"Our Sponsors"} />
+      <section className="flex flex-col items-center justify-center">
+        {sponsorLists.map(SponsorList)}
+      </section>
     </section>
   );
 }

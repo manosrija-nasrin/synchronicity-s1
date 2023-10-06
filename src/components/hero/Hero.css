@@ -97,12 +97,12 @@
   align-items: center;
 }
 @media (max-width: 1000px) {
-  .Myinfo{
+  .Myinfo {
     flex-direction: column;
   }
 }
-@media (min-width: 1000px){
-  .Myinfo{
+@media (min-width: 1000px) {
+  .Myinfo {
     flex-direction: row;
   }
 }
@@ -110,7 +110,7 @@
 .Myinfo p {
   max-width: 600px;
 }
-.button{
+.button {
   align-items: center;
   background-color: #7289da;
   border-radius: 4px;
@@ -121,7 +121,7 @@
   height: 45px;
   outline: none;
   padding: 0 32px;
-  transition: all .1s ease-in 0s;
+  transition: all 0.1s ease-in 0s;
   white-space: nowrap;
   width: 200px;
   margin: 7px;
@@ -157,12 +157,6 @@
 button:hover .overlay {
   width: 100%;
   left: 0;
-}
-
-@media (max-width: 1200px) {
-  .AboutMe h2 {
-    /* font-size: 6rem; */
-  }
 }
 
 /* main targer */

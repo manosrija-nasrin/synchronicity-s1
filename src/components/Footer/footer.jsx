@@ -5,42 +5,42 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer>
-      <div class="content">
-        <div class="top">
-          <div class="logo-details">
+      <div className="content">
+        <div className="top">
+          <div className="logo-details">
             {/* <img src={logo} className="imgfooter" /> */}
-            <span class="logo_name">DUHacks</span>
+            <span className="logo_name">DUHacks</span>
           </div>
 
-          <div class="media-icons">
+          <div className="media-icons">
             <a target="_blank" href={socialData.discord}>
-              <i class="iconlink fab fa-discord"></i>
+              <i className="iconlink fab fa-discord"></i>
             </a>
             <a target="_blank" href={socialData.twitter}>
-              <i class="iconlink fab fa-twitter"></i>
+              <i className="iconlink fab fa-twitter"></i>
             </a>
             <a target="_blank" href={socialData.instagram}>
-              <i class="iconlink fab fa-instagram"></i>
+              <i className="iconlink fab fa-instagram"></i>
             </a>
             <a target="_blank" href={socialData.linkedin}>
-              <i class="iconlink fab fa-linkedin-in"></i>
+              <i className="iconlink fab fa-linkedin-in"></i>
             </a>
             <a target="_blank" href={socialData.email}>
-              <i class="iconlink fa-solid fa-envelope"></i>
+              <i className="iconlink fa-solid fa-envelope"></i>
             </a>
           </div>
         </div>
-        <ul class="box1 input-box1">
+        <ul className="box1 input-box1">
           <img src={dsc} className="imgfooterdsc" />
         </ul>
       </div>
-      <div class="bottom-details">
-        <div class="bottom_text">
-          <span class="copyright_text">
+      <div className="bottom-details">
+        <div className="bottom_text">
+          <span className="copyright_text">
             Copyright © {new Date().getFullYear()} JU ACM Student Chapter, All
             rights reserved.
           </span>
-          <span class="policy_terms">Made with ❤️</span>
+          <span className="policy_terms">Made with ❤️</span>
         </div>
       </div>
     </footer>
