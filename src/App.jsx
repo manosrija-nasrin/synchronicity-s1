@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero.jsx";
-import About from "./components/about/About.jsx";
-import Themes from "./components/themes/Themes.jsx";
-import Timeline from "./components/timeline/Timeline.jsx";
-import Sponsors from "./components/sponsors/Sponsors.jsx";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
+import Themes from "./components/themes/Themes";
+import Timeline from "./components/timeline/Timeline";
+import Sponsors from "./components/sponsors/Sponsors";
 import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
-import Accordion from "./components/FAQ/faq.jsx";
+import Accordion from "./components/FAQ/faq";
 
 import pattern from "./pattern.png";
 
