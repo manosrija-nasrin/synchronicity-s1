@@ -6,7 +6,7 @@ import Timeline from "./components/timeline/Timeline";
 import Sponsors from "./components/sponsors/Sponsors";
 import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
-import Accordion from "./components/FAQ/faq";
+import Accordion from "./components/faq/FAQ";
 
 import pattern from "./pattern.png";
 

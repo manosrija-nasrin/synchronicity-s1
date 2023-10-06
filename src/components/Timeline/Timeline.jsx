@@ -1,7 +1,7 @@
 import SectionTitle from "../lib/SectionTitle";
 import "./Timeline.css";
 
-function TimeLine() {
+export default function TimeLine() {
   return (
     <section>
       <SectionTitle
@@ -100,5 +100,3 @@ function TimeLine() {
     </section>
   );
 }
-
-export default TimeLine;
