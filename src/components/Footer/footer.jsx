@@ -1,5 +1,4 @@
 import socialData from "../../data/socialData";
-import dsc from "./dsc.png";
 import "./Footer.css";
 
 export default function Footer() {
@@ -9,7 +8,7 @@ export default function Footer() {
         <div className="top">
           <div className="logo-details">
             {/* <img src={logo} className="imgfooter" /> */}
-            <span className="logo_name">DUHacks</span>
+            <span className="logo_name">Synchronicity - S1</span>
           </div>
 
           <div className="media-icons">
@@ -30,8 +29,11 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <ul className="box1 input-box1">
-          <img src={dsc} className="imgfooterdsc" />
+        <ul className="my-3">
+          <img
+            src="https://admission.jdvu.ac.in/fatadmission/frontend/image/logo-black.png"
+            className="imgfooterdsc"
+          />
         </ul>
       </div>
       <div className="bottom-details">
