@@ -25,7 +25,9 @@ export default function SectionTitle({
           </h2>
         )}
         {titleDescription && (
-          <p className="text-base text-body-color">{titleDescription}</p>
+          <p className="text-base font-medium text-body-color">
+            {titleDescription}
+          </p>
         )}
       </div>
     </div>

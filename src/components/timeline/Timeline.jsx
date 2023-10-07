@@ -3,7 +3,14 @@ import "./Timeline.css";
 
 export default function TimeLine() {
   return (
-    <section>
+    <section
+      className="py-16"
+      style={{
+        backgroundImage: `url(/pattern.jpg)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "100%",
+      }}
+    >
       <SectionTitle
         title={"Hackathon Timeline"}
         titleDescription={"Follow the exact flow of the hackathon."}

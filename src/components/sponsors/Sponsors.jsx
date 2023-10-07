@@ -6,8 +6,6 @@ import silverSponsors from "../../data/sponsorsData/silverSponsors";
 import bronzeSponsors from "../../data/sponsorsData/bronzeSponsors";
 import genericSponsors from "../../data/sponsorsData/genericSponsors";
 
-import "./Sponsors.css";
-
 const sponsorLists = [
   {
     name: "Title Sponsors",
@@ -54,7 +52,7 @@ function SponsorList({ name, list }) {
 
 export default function Sponsors() {
   return (
-    <section>
+    <section id="sponsors" className="pt-16">
       <SectionTitle title={"Our Sponsors"} />
       <section className="flex flex-col items-center justify-center">
         {sponsorLists.map(SponsorList)}

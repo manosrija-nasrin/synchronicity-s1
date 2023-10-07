@@ -8,20 +8,11 @@ import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
 import Accordion from "./components/faq/FAQ";
 
-import pattern from "./pattern.png";
-
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        textAlign: "center",
-      }}
-    >
+    <>
       <Navbar />
-      <main style={{ backgroundImage: `url(${pattern})` }}>
+      <main>
         <Hero />
         <About />
         <Themes />
@@ -38,7 +29,7 @@ function App() {
         <Accordion />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

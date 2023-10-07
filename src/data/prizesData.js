@@ -14,6 +14,7 @@ export const prizesData = [
       "The second prize will be given to the second-best project in the hackathon.",
     cashComponent: 8000,
   },
+
   {
     icon: "./icons/bronzeTrophy.svg",
     type: "Third Price",
