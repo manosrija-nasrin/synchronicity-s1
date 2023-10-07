@@ -27,7 +27,7 @@ export default function Hero() {
         backgroundSize: "cover",
       }}
     >
-      <div className="flex flex-col items-center p-6 lg:pr-20 lg:items-start">
+      <div className="flex flex-col items-center p-3 md:p-6 lg:pr-20 lg:items-start">
         <strong>{TOP_SECTION.Typed_effect[0]}</strong>
         <h1 className="hidden py-4 text-4xl font-bold md:block md:text-6xl lg:text-4xl xl:text-5xl">
           {TOP_SECTION.TITLE}
