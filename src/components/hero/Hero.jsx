@@ -2,6 +2,7 @@ import { SecondaryButton } from "../lib/Buttons";
 
 const TOP_SECTION = {
   TITLE: "Synchronicity - S1",
+  MOBILE_TITLE: ["Synchronicity", "Season 01"],
   Typed_effect: [
     "25 & 26 November, 2023",
     "36 hours of creation",
@@ -28,12 +29,25 @@ export default function Hero() {
     >
       <div className="flex flex-col items-center p-6 lg:pr-20 lg:items-start">
         <strong>{TOP_SECTION.Typed_effect[0]}</strong>
-        <h1 className="py-4 text-3xl font-bold md:text-6xl lg:text-4xl xl:text-5xl">
+        <h1 className="hidden py-4 text-4xl font-bold md:block md:text-6xl lg:text-4xl xl:text-5xl">
           {TOP_SECTION.TITLE}
         </h1>
-        <span className="pb-2 font-semibold">
-          {TOP_SECTION.Typed_effect[1]}, {TOP_SECTION.Typed_effect[2]}
-        </span>
+        <h1 className="flex flex-col py-4 text-center md:hidden">
+          <span className="pb-4 text-3xl font-semibold">
+            {TOP_SECTION.MOBILE_TITLE[0]}
+          </span>
+          <span className="text-5xl font-semibold">
+            {TOP_SECTION.MOBILE_TITLE[1]}
+          </span>
+        </h1>
+        <div className="flex flex-col text-lg gap-x-4 md:flex-row">
+          <span className="pb-2 font-semibold">
+            {TOP_SECTION.Typed_effect[1]}
+          </span>
+          <span className="pb-2 font-semibold">
+            {TOP_SECTION.Typed_effect[2]}
+          </span>
+        </div>
         <p className="max-w-lg pb-3 font-medium text-center lg:text-left">
           {TOP_SECTION.SHORT_DESCRIPTION}
         </p>

@@ -56,8 +56,9 @@ const Navbar = () => {
           zIndex: 100,
         }}
       >
-        <div className="">
-          <img alt="img" className="" width="75px" src={logoURL} />
+        <div className="flex items-center justify-center h-full font-semibold text-white">
+          Synchronicity
+          {/* <img alt="img" className="" width="75px" src={logoURL} /> */}
         </div>
         <ul className="flex flex-row items-center justify-center h-12 text-gray-200 list-none">
           {navbarLinks.map((el) => (
@@ -87,8 +88,9 @@ const Navbar = () => {
           style={{ backgroundColor: "#121930", padding: "10px 50px" }}
         >
           <div className="flex flex-row justify-between w-full">
-            <div>
-              <img alt="img" width="75px" src={logoURL} />
+            <div className="flex items-center justify-center h-full font-semibold text-white">
+              Synchronicity
+              {/* <img alt="img" width="75px" src={logoURL} /> */}
             </div>
             <button
               className="p-0 m-0 text-2xl text-white border-none cursor-pointer bg-none"
