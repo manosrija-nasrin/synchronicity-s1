@@ -24,7 +24,7 @@ export default function Hero() {
       style={{
         backgroundImage: `url(/pattern.jpg)`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "100%",
+        backgroundSize: "cover",
       }}
     >
       <div className="flex flex-col items-center p-6 lg:pr-20 lg:items-start">

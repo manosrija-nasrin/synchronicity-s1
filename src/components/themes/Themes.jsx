@@ -9,7 +9,7 @@ export default function Themes() {
       style={{
         backgroundImage: `url(/pattern.jpg)`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "100%",
+        backgroundSize: "cover",
       }}
     >
       <SectionTitle
