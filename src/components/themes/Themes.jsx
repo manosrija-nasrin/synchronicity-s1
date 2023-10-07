@@ -18,10 +18,10 @@ export default function Themes() {
           "Showcase your skills trying to hack different tracks."
         }
       />
-      <section className="grid grid-cols-1 gap-8 px-10 py-28 md:grid-cols-2 lg:grid-cols-3">
+      <section className="grid grid-cols-1 gap-8 px-5 md:px-10 py-28 md:grid-cols-2 lg:grid-cols-3">
         {themesData.map((el) => (
           <div
-            className="p-10 rounded-md bg-slate-800 bg-opacity-30"
+            className="p-8 rounded-md md:p-10 bg-slate-800 bg-opacity-30"
             key={el.themeName}
           >
             <div className="flex items-center justify-center">

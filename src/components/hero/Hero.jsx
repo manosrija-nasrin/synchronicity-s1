@@ -1,5 +1,4 @@
 import { SecondaryButton } from "../lib/Buttons";
-import "./Hero.css";
 
 const TOP_SECTION = {
   TITLE: "Synchronicity - S1",
@@ -20,7 +19,7 @@ const TOP_SECTION = {
 export default function Hero() {
   return (
     <section
-      className="grid items-center justify-center grid-cols-1 grid-rows-2 px-10 py-12 text-white lg:py-24 lg:grid-rows-1 lg:grid-cols-2"
+      className="flex flex-col items-center justify-center grid-cols-1 grid-rows-2 px-10 py-8 text-white md:grid lg:py-24 lg:grid-rows-1 lg:grid-cols-2"
       style={{
         backgroundImage: `url(/pattern.jpg)`,
         backgroundRepeat: "no-repeat",
@@ -38,7 +37,7 @@ export default function Hero() {
         <p className="max-w-lg pb-3 font-medium text-center lg:text-left">
           {TOP_SECTION.SHORT_DESCRIPTION}
         </p>
-        <section className="grid w-full grid-cols-2 px-6 pt-5 lg:px-0 gap-x-5">
+        <section className="grid w-full grid-cols-1 gap-4 px-6 pt-5 md:grid-cols-2 lg:px-0 gap-x-5">
           <SecondaryButton
             // iconFilePath={"/icons/discord.svg"}
             buttonText={"Learn More"}
@@ -53,7 +52,7 @@ export default function Hero() {
           />
         </section>
       </div>
-      <div className="overflow-hidden rounded-md">
+      <div className="py-6 overflow-hidden rounded-md">
         <img
           src={TOP_SECTION.COVER_IMAGE_URL}
           alt="Cover Image Of Synchronicity"

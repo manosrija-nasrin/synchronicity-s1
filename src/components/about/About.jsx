@@ -8,7 +8,7 @@ export default function About() {
         title={"What is Synchronicity?"}
         titleDescription={"Get a glimse of our hackathon is about."}
       />
-      <div className="grid items-center justify-center grid-cols-1 grid-rows-2 py-10 lg:grid-rows-1 lg:grid-cols-2">
+      <div className="flex flex-col items-center justify-center grid-cols-1 grid-rows-2 py-10 md:grid lg:grid-rows-1 lg:grid-cols-2">
         <div
           className="Image"
           style={{ maxWidth: "100%", display: "block", margin: "auto" }}
