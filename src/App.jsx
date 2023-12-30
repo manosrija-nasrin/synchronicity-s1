@@ -18,7 +18,7 @@ function App() {
         <Themes />
         <Prizes />
         <Timeline />
-        <Sponsors />
+        {/* <Sponsors /> */}
 
         {/* <h1 className="">Design & Media Partners</h1> */}
         {/* {designlogo.map(SponsorGroup)} */}
