@@ -4,10 +4,11 @@ import PropTypes from "prop-types";
 export const FAQAccordionItem = ({ header, text }) => {
   const [active, setActive] = useState(false);
 
-  const handleToggle = (event) => {
-    event.preventDefault();
+  const handleToggle = () => {
+    // event.preventDefault();
     setActive(!active);
   };
+
   return (
     <div className="single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-4 sm:p-8 lg:px-6 xl:px-8">
       <button
