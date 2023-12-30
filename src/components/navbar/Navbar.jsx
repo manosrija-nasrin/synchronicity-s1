@@ -10,10 +10,10 @@ const navbarLinks = [
     link: "#themes",
     name: "Themes",
   },
-  {
+  /*{
     link: "#sponsors",
     name: "Sponsors",
-  },
+  },*/
   {
     link: "#teams",
     name: "Teams",
