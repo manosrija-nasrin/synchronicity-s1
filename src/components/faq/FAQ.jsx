@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import PropTypes from "prop-types";
 import SectionTitle from "../lib/SectionTitle";
 
 import { frequentlyAskedQuestions } from "../../data/FAQ";
@@ -73,4 +74,9 @@ const AccordionItem = ({ header, text }) => {
       </div>
     </div>
   );
+};
+
+AccordionItem.propTypes = {
+  header: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
