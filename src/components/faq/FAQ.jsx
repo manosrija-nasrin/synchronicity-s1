@@ -1,8 +1,8 @@
 import SectionTitle from "../lib/SectionTitle";
-import { AccordionItem } from "./AccordionItem";
+import { FAQAccordionItem } from "./FAQAccordionItem";
 import { frequentlyAskedQuestions } from "../../data/FAQ";
 
-const Accordion = () => {
+export default function FAQ() {
   return (
     <section
       id="faqs"
@@ -17,12 +17,10 @@ const Accordion = () => {
 
         <div className="w-full px-4 pt-12">
           {frequentlyAskedQuestions.map((el) => (
-            <AccordionItem header={el.label} text={el.content} key={el} />
+            <FAQAccordionItem header={el.label} text={el.content} key={el} />
           ))}
         </div>
       </div>
     </section>
   );
-};
-
-export default Accordion;
+}

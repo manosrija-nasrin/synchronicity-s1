@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-export const AccordionItem = ({ header, text }) => {
+export const FAQAccordionItem = ({ header, text }) => {
   const [active, setActive] = useState(false);
 
   const handleToggle = (event) => {
@@ -48,7 +48,7 @@ export const AccordionItem = ({ header, text }) => {
   );
 };
 
-AccordionItem.propTypes = {
+FAQAccordionItem.propTypes = {
   header: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
