@@ -1,9 +1,8 @@
 import SectionTitle from "../lib/SectionTitle";
-
-import FAQAccordionItem from "./FAQAccordionItem";
+import { FAQAccordionItem } from "./FAQAccordionItem";
 import { frequentlyAskedQuestions } from "../../data/FAQ";
 
-export const FAQ = () => {
+export default function FAQ() {
   return (
     <section
       id="faqs"
@@ -24,4 +23,4 @@ export const FAQ = () => {
       </div>
     </section>
   );
-};
+}

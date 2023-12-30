@@ -4,16 +4,14 @@ const TOP_SECTION = {
   TITLE: "Synchronicity - S1",
   MOBILE_TITLE: ["Synchronicity", "Season 01"],
   Typed_effect: [
-    "25 & 26 November, 2023",
-    "36 hours of creation",
-    "Win awesome prizes",
+    "January 20, 2024",
+    "10+ hours of creation!",
+    "Win awesome prizes!",
     "Events And Sessions",
   ],
   SHORT_DESCRIPTION:
-    "Join us on 25th and 26th of November, 2023 for 36 hours of creation, innovation, & fun with over 750+ students.",
-  DISCORD_LINK: "https://discord.gg/cvHPEK7U3v",
-  HACKATHON_DEVFOLIO_PAGE_URL: "https://duhacks.devfolio.co/",
-  HACKERS_REGISTRATION_FORM_LINK: "#Hackers Registration devfolio link",
+    "Join us for a marathon of CREATION, INNOVATION & FUN with over 100+ students! It's all happenning here at Jadavpur University, Salt Lake campus!",
+  HACKATHON_UNSTOP_URL: "/",
   COVER_IMAGE_URL: "/hackathon-crowd.jpeg",
 };
 
@@ -53,15 +51,13 @@ export default function Hero() {
         </p>
         <section className="grid w-full grid-cols-1 gap-4 px-6 pt-5 md:grid-cols-2 lg:px-0 gap-x-5">
           <SecondaryButton
-            // iconFilePath={"/icons/discord.svg"}
             buttonText={"Learn More"}
-            buttonURL={TOP_SECTION.HACKATHON_DEVFOLIO_PAGE_URL}
+            buttonURL={TOP_SECTION.HACKATHON_UNSTOP_URL}
             iconAlternativeText={"click to register for synchronicity"}
           />
           <SecondaryButton
-            // iconFilePath={"/icons/discord.svg"}
             buttonText={"Register Now"}
-            buttonURL={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}
+            buttonURL={TOP_SECTION.HACKATHON_UNSTOP_URL}
             iconAlternativeText={"click to register for synchronicity"}
           />
         </section>
