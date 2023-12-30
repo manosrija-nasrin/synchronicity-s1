@@ -3,10 +3,9 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Themes from "./components/themes/Themes";
 import Timeline from "./components/timeline/Timeline";
-import Sponsors from "./components/sponsors/Sponsors";
 import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
-import Accordion from "./components/faq/FAQ";
+import FAQ from "./components/faq/FAQ";
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
         {/* <h1 className="">Food Sponsors</h1> */}
         {/* {FoodLogos.map(SponsorGroup)} */}
 
-        <Accordion />
+        <FAQ />
       </main>
       <Footer />
     </>

@@ -9,24 +9,23 @@ export const prizesData = [
   },
   {
     icon: "./icons/silverTrophy.svg",
-    type: "Second Price",
+    type: "Second Prize",
     content:
       "The second prize will be given to the second-best project in the hackathon.",
-    cashComponent: 8000,
+    cashComponent: 5000,
   },
 
   {
     icon: "./icons/bronzeTrophy.svg",
-    type: "Third Price",
+    type: "Third Prize",
     content:
       "The third prize will be given to the third-best project in the hackathon.",
-    cashComponent: 5000,
+    cashComponent: 2000,
   },
   {
-    icon: "./icons/goldTrophy.svg",
+    icon: "./icons/trophy2.svg",
     type: "Best Innovative Idea",
-    content:
-      "Your project will qualify for this category if your all team members are women.",
+    content: "Your idea impressed us all!",
     cashComponent: 0,
   },
   {

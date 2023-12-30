@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-const logoURL = "Logo.png";
+import { useState, useEffect } from "react";
 
 const navbarLinks = [
   {
@@ -13,11 +12,11 @@ const navbarLinks = [
   /*{
     link: "#sponsors",
     name: "Sponsors",
-  },*/
+  },
   {
     link: "#teams",
     name: "Teams",
-  },
+  },*/
   {
     link: "#faqs",
     name: "FAQs",
@@ -57,7 +56,7 @@ const Navbar = () => {
         }}
       >
         <div className="flex items-center justify-center h-full font-semibold text-white">
-          Synchronicity
+          synchronicity - s1
           {/* <img alt="img" className="" width="75px" src={logoURL} /> */}
         </div>
         <ul className="flex flex-row items-center justify-center h-12 text-gray-200 list-none">
@@ -89,7 +88,7 @@ const Navbar = () => {
         >
           <div className="flex flex-row justify-between w-full">
             <div className="flex items-center justify-center h-full font-semibold text-white">
-              Synchronicity
+              synchronicity - s1
               {/* <img alt="img" width="75px" src={logoURL} /> */}
             </div>
             <button

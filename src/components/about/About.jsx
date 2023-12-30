@@ -5,8 +5,8 @@ export default function About() {
   return (
     <section id="about" className="pt-16 bg-white">
       <SectionTitle
-        title={"What is Synchronicity?"}
-        titleDescription={"Get a glimse of our hackathon is about."}
+        title={"All about synchronicity!"}
+        titleDescription={"Get a glimpse of what our hackathon is about!"}
       />
       <div className="flex flex-col items-center justify-center grid-cols-1 grid-rows-2 py-10 md:grid lg:grid-rows-1 lg:grid-cols-2">
         <div
@@ -22,19 +22,19 @@ export default function About() {
 
         <div className="flex flex-col justify-start p-10">
           <p className="pb-4 text-lg font-medium leading-relaxed text-justify">
-            It is a hybrid mode hackathon in which all participants can sharpen
-            their skills and connect with people to grow together. The Hackathon
-            is designed to spark innovation, attract and educate new talent and
-            create new channels for collaboration between performance and
-            capacity professionals. We want to spread the idea that programming
-            is a useful skill that can be enjoyed by anyone. We are planning to
-            host approximately 150+ students offline in the college with proper
-            arrangement and 850+ students online.
+            <strong>synchronicity</strong> is a hybrid mode hackathon in which
+            participants can sharpen their skills and connect with people to
+            grow together. It is designed to spark innovation, attract and
+            educate new talent and create new channels for collaboration between
+            performance and capacity professionals. We want to spread the idea
+            that programming is a useful skill that can be enjoyed by anyone. We
+            are planning to host approximately 150+ students offline in the
+            college with proper arrangement and 200+ students online.
           </p>
           <PrimaryButton
             iconFilePath={"/icons/discord.svg"}
-            buttonText={"Join Discord Channel"}
-            buttonURL={"www.discord.com"}
+            buttonText={"Discord Channel coming soon!"}
+            buttonURL={"/"}
             iconAlternativeText={"discord logo"}
           />
         </div>
