@@ -3,7 +3,6 @@ import Hero from "./components/hero/Hero";
 import About from "./components/about/About";
 import Themes from "./components/themes/Themes";
 import Timeline from "./components/timeline/Timeline";
-import Sponsors from "./components/sponsors/Sponsors";
 import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
 import FAQ from "./components/faq/FAQ";
