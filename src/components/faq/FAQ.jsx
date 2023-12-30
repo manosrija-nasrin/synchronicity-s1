@@ -19,7 +19,7 @@ const Accordion = () => {
 
         <div className="w-full px-4 pt-12">
           {frequentlyAskedQuestions.map((el) => (
-            <AccordionItem header={el.label} text={el.content} />
+            <AccordionItem header={el.label} text={el.content} key={el} />
           ))}
         </div>
       </div>
