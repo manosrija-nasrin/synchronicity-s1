@@ -31,7 +31,7 @@ export default Accordion;
 const AccordionItem = ({ header, text }) => {
   const [active, setActive] = useState(false);
 
-  const handleToggle = () => {
+  const handleToggle = (event) => {
     event.preventDefault();
     setActive(!active);
   };
