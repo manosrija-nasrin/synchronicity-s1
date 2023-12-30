@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-const logoURL = "Logo.png";
+import { useState, useEffect } from "react";
 
 const navbarLinks = [
   {
