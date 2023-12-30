@@ -1,9 +1,9 @@
 import SectionTitle from "../lib/SectionTitle";
 
-import AccordionItem from "./FAQAccordionItem";
+import FAQAccordionItem from "./FAQAccordionItem";
 import { frequentlyAskedQuestions } from "../../data/FAQ";
 
-export const Accordion = () => {
+export const FAQ = () => {
   return (
     <section
       id="faqs"
@@ -18,7 +18,7 @@ export const Accordion = () => {
 
         <div className="w-full px-4 pt-12">
           {frequentlyAskedQuestions.map((el) => (
-            <AccordionItem header={el.label} text={el.content} key={el} />
+            <FAQAccordionItem header={el.label} text={el.content} key={el} />
           ))}
         </div>
       </div>
