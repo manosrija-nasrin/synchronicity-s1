@@ -12,11 +12,11 @@ const navbarLinks = [
   /*{
     link: "#sponsors",
     name: "Sponsors",
-  },*/
+  },
   {
     link: "#teams",
     name: "Teams",
-  },
+  },*/
   {
     link: "#faqs",
     name: "FAQs",
