@@ -32,8 +32,8 @@ import newSponsors from "../../data/sponsorsData/newSponsors";
 
 const sponsorLists = [
     {
-        name: "Sponsors",
-        list: newSponsors,
+      name: "Sponsors",
+      list: newSponsors,
     }
 ];
 
