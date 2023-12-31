@@ -1,12 +1,13 @@
 import SectionTitle from "../lib/SectionTitle";
 
-import titleSponsors from "../../data/sponsorsData/titleSponsors";
-import goldSponsors from "../../data/sponsorsData/goldSponsors";
-import silverSponsors from "../../data/sponsorsData/silverSponsors";
-import bronzeSponsors from "../../data/sponsorsData/bronzeSponsors";
-import genericSponsors from "../../data/sponsorsData/genericSponsors";
+//import titleSponsors from "../../data/sponsorsData/titleSponsors";
+//import goldSponsors from "../../data/sponsorsData/goldSponsors";
+//import silverSponsors from "../../data/sponsorsData/silverSponsors";
+//import bronzeSponsors from "../../data/sponsorsData/bronzeSponsors";
+//import genericSponsors from "../../data/sponsorsData/genericSponsors";
+import newSponsors from "../../data/sponsorsData/newSponsors";
 
-const sponsorLists = [
+/*const sponsorLists = [
   {
     name: "Title Sponsors",
     list: titleSponsors,
@@ -27,13 +28,20 @@ const sponsorLists = [
     name: "Other Sponsors",
     list: genericSponsors,
   },
+];*/
+
+const sponsorLists = [
+    {
+        name: "Sponsors",
+        list: newSponsors,
+    }
 ];
 
 function Sponsor(props) {
   return (
     <div className="flex items-center justify-center">
       <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
-        <img src={props.sponsorLogoURL} alt={props.name} className="w-60" />
+        <img src={props.sponsorLogoURL} alt={props.name} className="w-96" />
       </a>
     </div>
   );
@@ -42,7 +50,7 @@ function Sponsor(props) {
 function SponsorList({ name, list }) {
   return (
     <>
-      <SectionTitle title={name} fontSize={"28"} />
+      {/* <SectionTitle title={name} fontSize={"28"} /> */}
       <section className="flex flex-wrap items-center justify-center gap-16 p-8">
         {list.map(Sponsor)}
       </section>
