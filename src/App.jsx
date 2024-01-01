@@ -6,6 +6,7 @@ import Timeline from "./components/timeline/Timeline";
 import Footer from "./components/footer/Footer";
 import Prizes from "./components/prizes/Prizes";
 import FAQ from "./components/faq/FAQ";
+import Sponsors from "./components/sponsors/Sponsors"
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Themes />
         <Prizes />
         <Timeline />
-        {/* <Sponsors /> */}
+        <Sponsors />
 
         {/* <h1 className="">Design & Media Partners</h1> */}
         {/* {designlogo.map(SponsorGroup)} */}

@@ -20,7 +20,7 @@ export function PrimaryButton({
           alt={iconAlternativeText}
         />
       )}
-      <strong className="">{buttonText}</strong>
+      <strong className="text-xs sm:text-base">{buttonText}</strong>
     </a>
   );
 }
