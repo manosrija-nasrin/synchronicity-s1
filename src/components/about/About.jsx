@@ -22,7 +22,7 @@ export default function About() {
 
         <div className="flex flex-col justify-start p-10">
           <p className="pb-4 text-lg font-medium leading-relaxed text-justify">
-            <strong>synchronicity</strong> is a hybrid mode hackathon in which
+            <strong>synchronicity</strong> is an offline hackathon in which
             participants can sharpen their skills and connect with people to
             grow together. It is designed to spark innovation, attract and
             educate new talent and create new channels for collaboration between
