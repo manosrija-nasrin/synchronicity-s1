@@ -2,43 +2,47 @@ const frequentlyAskedQuestions = [
   {
     label: "What is a hackathon?",
     content:
-      'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.',
+      "A hackathon is best described as an “invention marathon”. Anyone who has an interest in technology attends a hackathon to learn, build & share their creations over the course of a weekend in a relaxed and welcoming atmosphere.",
   },
   {
     label: "Who can attend?",
     content:
-      "DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online.",
+      "synchroncity is open to all undergraduate/graduate students who are currently studying in a college or university. You can be from any stream, any discipline, not just Computer Science!",
   },
   {
     label: "I am a first time hacker, what should I do?",
     content:
-      "No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general.",
+      "Have fun and don't worry about anything else! Treat this hackathon as an opportunity to hone your skills and who knows, you might just win.",
   },
   {
-    label: "How team formation works?",
+    label: "Is this a team or an individual event?",
     content:
-      "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team.",
+      "For hackathons, the more the merrier, but unfortunately, we will be limiting the team size to exactly 4 people. Teams can be inter-institutional i.e. participants can be from different colleges/universities. So tell your friends to participate!",
   },
 
   {
     label: "How to register myself in the hackathon?",
     content:
-      "All you need is to register yourself on devfolio and join discord, we will guide you through everything there.",
+      "When the registration opens, we will provide the registration portal in the website itself, so stay tuned!",
   },
   {
-    label: "I have more questions?",
+    label: "Is there a registration fee?",
     content:
-      "Reach us directly at (contact@duhacks.tech) we would happy to help you.",
+      "Yes. Participation in synchronicity costs Rs. 250 per person, so it comes to be Rs. 1000 per team.",
   },
   {
     label: "Can I participate as a individual?",
-    content:
-      "No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people.",
+    content: "No, sorry. You have to participate as a team. :(",
   },
   {
-    label: "Will there be swag?",
+    label: "What's in it for me?",
     content:
-      "Yes, Participants and winners will receive swags, certificates, promo codes, and much more!",
+      "Participants will receive certificates, access to premium services offered by our sponsors and much more! Most importantly, lunch will be provided to the participants.",
+  },
+  {
+    label: "I have more questions.",
+    content:
+      "Reach us directly at acmjustudentchapter@gmail.com, we would happy to help you.",
   },
 ];
 
