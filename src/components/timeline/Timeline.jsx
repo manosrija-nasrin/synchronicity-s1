@@ -6,7 +6,7 @@ import { Chrono } from "react-chrono";
 const timelineDetails = [
   {
     cardTitle: "Registrations Start",
-    title: "1st January 2024",
+    title: "03rd January 2024",
     cardSubtitle: "Participants will begin registration for the hackathon.",
   },
   {
@@ -17,7 +17,7 @@ const timelineDetails = [
   {
     cardTitle: "D-Day",
     title: "20th January 2024",
-    cardSubtitle: "Hackathon coding period will start from 10:30 AM onwards.",
+    cardSubtitle: "The day has finally arrived! Get ready!",
   },
   {
     cardTitle: "Results",
