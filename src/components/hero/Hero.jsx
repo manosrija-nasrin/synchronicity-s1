@@ -11,7 +11,7 @@ const TOP_SECTION = {
   ],
   SHORT_DESCRIPTION:
     "Join us for a marathon of CREATION, INNOVATION & FUN with over 100+ students! It's all happenning here at Jadavpur University, Salt Lake campus!",
-  HACKATHON_UNSTOP_URL: "/",
+  HACKATHON_UNSTOP_URL: "https://unstop.com/o/FjWX0sO?lb=5lXdRXXV",
   COVER_IMAGE_URL: "/hackathon-crowd.jpeg",
 };
 
@@ -50,11 +50,11 @@ export default function Hero() {
           {TOP_SECTION.SHORT_DESCRIPTION}
         </p>
         <section className="grid w-full grid-cols-1 gap-4 px-6 pt-5 md:grid-cols-2 lg:px-0 gap-x-5">
-          <SecondaryButton
+          {/* <SecondaryButton
             buttonText={"Learn More"}
             buttonURL={TOP_SECTION.HACKATHON_UNSTOP_URL}
             iconAlternativeText={"click to register for synchronicity"}
-          />
+          /> */}
           <SecondaryButton
             buttonText={"Register Now"}
             buttonURL={TOP_SECTION.HACKATHON_UNSTOP_URL}
