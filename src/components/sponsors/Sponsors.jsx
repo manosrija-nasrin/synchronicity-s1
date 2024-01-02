@@ -31,17 +31,21 @@ import newSponsors from "../../data/sponsorsData/newSponsors";
 ];*/
 
 const sponsorLists = [
-    {
-      name: "Sponsors",
-      list: newSponsors,
-    }
+  {
+    name: "API Tooling Partner",
+    list: newSponsors,
+  },
 ];
 
 function Sponsor(props) {
   return (
     <div className="flex items-center justify-center">
       <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
-        <img src={props.sponsorLogoURL} alt={props.name} className="w-60 sm:w-96" />
+        <img
+          src={props.sponsorLogoURL}
+          alt={props.name}
+          className="w-60 sm:w-96"
+        />
       </a>
     </div>
   );
