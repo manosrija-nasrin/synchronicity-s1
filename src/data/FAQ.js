@@ -7,7 +7,7 @@ const frequentlyAskedQuestions = [
   {
     label: "Who can attend?",
     content:
-      "synchroncity is open to all undergraduate/graduate students who are currently studying in a college or university. You can be from any stream, any discipline, not just Computer Science!",
+      "synchronicity is open to all undergraduate/graduate students who are currently studying in a college or university. You can be from any stream, any discipline, not just Computer Science!",
   },
   {
     label: "I am a first time hacker, what should I do?",
@@ -17,7 +17,7 @@ const frequentlyAskedQuestions = [
   {
     label: "Is this a team or an individual event?",
     content:
-      "For hackathons, the more the merrier, but unfortunately, we will be limiting the team size to exactly 4 people. Teams can be inter-institutional i.e. participants can be from different colleges/universities. So tell your friends to participate!",
+      "You can have 3-5 people in your team. Teams can be inter-institutional i.e. participants can be from different colleges/universities. So tell your friends to participate!",
   },
 
   {
@@ -28,7 +28,7 @@ const frequentlyAskedQuestions = [
   {
     label: "Is there a registration fee?",
     content:
-      "Yes. Participation in synchronicity costs Rs. 250 per person, so it comes to be Rs. 1000 per team.",
+      "Yes. Participation in synchronicity costs Rs. 120 per person plus transaction charges.",
   },
   {
     label: "Can I participate as a individual?",
