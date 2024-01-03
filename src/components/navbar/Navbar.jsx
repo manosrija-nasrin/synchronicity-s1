@@ -31,15 +31,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className="flex flex-row justify-between p-3"
-      style={{
-        backgroundColor: "#121930",
-        padding: "10px 60px",
-        alignItems: "center",
-        position: "sticky",
-        top: 0,
-        zIndex: 100,
-      }}
+      className="flex flex-row justify-between sticky top-0 z-50 items-center py-2.5 px-8 md:px-14 bg-gray-900"
     >
       <div className="flex items-center justify-center h-full font-semibold text-white">
         synchronicity - s1
