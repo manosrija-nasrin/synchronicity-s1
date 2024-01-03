@@ -64,6 +64,11 @@ function SponsorList({ name, list }) {
         <section className="flex flex-wrap items-center justify-center gap-16 p-8">
           {list.map(Sponsor)}
         </section>
+      <SectionTitle title={name} />
+      <section className="flex flex-col items-center justify-center">
+        <section className="flex flex-wrap items-center justify-center gap-16 p-8">
+          {list.map(Sponsor)}
+        </section>
       </section>
     </div>
   );
