@@ -43,14 +43,23 @@ const sponsorLists = [
 
 function Sponsor(props) {
   return (
-    <div className="flex items-center justify-center" key={props.name}>
-      <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
-        <img
-          src={props.sponsorLogoURL}
-          alt={props.name}
-          className="w-60 sm:w-60"
-        />
-      </a>
+    <div key={props.name}>
+      {props.descriptor ? (
+        <h1 className="block mb-8 text-xl text-center font-semibold text-primary">
+          {props.descriptor}
+        </h1>
+      ) : (
+        ""
+      )}
+      <div className="flex items-center justify-center">
+        <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
+          <img
+            src={props.sponsorLogoURL}
+            alt={props.name}
+            className="w-60 sm:w-60"
+          />
+        </a>
+      </div>
     </div>
   );
 }
@@ -61,7 +70,7 @@ function SponsorList({ name, list }) {
       {/* <SectionTitle title={name} fontSize={"28"} /> */}
       <SectionTitle title={name} />
       <section className="flex flex-col items-center justify-center">
-        <section className="flex flex-wrap items-center justify-center gap-16 p-8">
+        <section className="flex flex-wrap flex-start justify-center gap-16 p-8">
           {list.map(Sponsor)}
         </section>
       </section>
