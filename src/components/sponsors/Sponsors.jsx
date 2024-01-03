@@ -5,7 +5,7 @@ import SectionTitle from "../lib/SectionTitle";
 //import silverSponsors from "../../data/sponsorsData/silverSponsors";
 //import bronzeSponsors from "../../data/sponsorsData/bronzeSponsors";
 import genericSponsors from "../../data/sponsorsData/genericSponsors";
-import APIToolingPartner from "../../data/sponsorsData/APIToolingPartner";
+import Partners from "../../data/sponsorsData/Partners";
 
 /*const sponsorLists = [
   {
@@ -32,23 +32,23 @@ import APIToolingPartner from "../../data/sponsorsData/APIToolingPartner";
 
 const sponsorLists = [
   {
-    name: "Sponsors",
+    name: "Prize Sponsor",
     list: genericSponsors,
   },
   {
-    name: "API Tooling Partner",
-    list: APIToolingPartner,
+    name: "Partners",
+    list: Partners,
   },
 ];
 
 function Sponsor(props) {
   return (
-    <div className="flex items-center justify-center" key={props}>
+    <div className="flex items-center justify-center" key={props.name}>
       <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
         <img
           src={props.sponsorLogoURL}
           alt={props.name}
-          className="w-60 sm:w-96"
+          className="w-60 sm:w-60"
         />
       </a>
     </div>
@@ -57,7 +57,7 @@ function Sponsor(props) {
 
 function SponsorList({ name, list }) {
   return (
-    <>
+    <div key={name}>
       {/* <SectionTitle title={name} fontSize={"28"} /> */}
       <SectionTitle title={name} />
       <section className="flex flex-col items-center justify-center">
@@ -65,13 +65,13 @@ function SponsorList({ name, list }) {
           {list.map(Sponsor)}
         </section>
       </section>
-    </>
+    </div>
   );
 }
 
 export default function Sponsors() {
   return (
-    <section id="sponsors" className="pt-16">
+    <section id="sponsors-section" className="pt-16">
       {sponsorLists.map(SponsorList)}
     </section>
   );
