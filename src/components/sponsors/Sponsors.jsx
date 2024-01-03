@@ -43,7 +43,7 @@ const sponsorLists = [
 
 function Sponsor(props) {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center" key={props}>
       <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
         <img
           src={props.sponsorLogoURL}
