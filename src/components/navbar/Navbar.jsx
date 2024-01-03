@@ -4,14 +4,17 @@ const navbarLinks = [
   {
     link: "#about",
     name: "About",
+    icon: '/icons/about.svg'
   },
   {
     link: "#themes",
     name: "Themes",
+    icon: '/icons/themes.svg'
   },
   {
     link: "#sponsors",
     name: "Sponsors",
+    icon: '/icons/Sponsor.svg'
   },
   /*{
     link: "#teams",
@@ -20,6 +23,7 @@ const navbarLinks = [
   {
     link: "#faqs",
     name: "FAQs",
+    icon: '/icons/FAQS.svg'
   },
 ];
 
@@ -50,17 +54,12 @@ const Navbar = () => {
         onClick={toggleNav}
         aria-label="Toggle navigation"
       >
-        &#9776;
+        <img src="/icons/hamburger.svg" alt="Menu" className="h-6"/>
       </button>
       <ul
-        className={`fixed md:hidden top-0 ${
-          isNavOpen ? "right-0" : "right-[-200px]"
-        } w-2/5 h-screen pt-14 text-white`}
-        style={{
-          backgroundImage: `url(/pattern.jpg)`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        className={`fixed md:hidden bg-gray-900 top-0 ${
+          isNavOpen ? "right-0" : "right-[-300px]"
+        } w-3/5 h-screen pt-14 text-white`}
       >
         <button className="text-3xl absolute top-6 right-6" onClick={toggleNav}>
           &#10006;
@@ -68,7 +67,11 @@ const Navbar = () => {
         {navbarLinks.map((el) => (
           <li className="p-4 text-xl font-semibold" key={el.link}>
             <a href={el.link}>
-              <span className="links">{el.name}</span>
+              <div className="flex flex-row items-center">
+                <img src={el.icon} alt={el.name} className="h-6 mr-2"/>
+                {/* <span className="h-6">{el.icon}</span> */}
+                <span className="links">{el.name}</span>
+              </div>
             </a>
           </li>
         ))}
