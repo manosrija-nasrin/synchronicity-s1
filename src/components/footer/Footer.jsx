@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+
 import socialData from "../../data/socialData";
 import "./Footer.css";
 
@@ -12,29 +16,29 @@ export default function Footer() {
           </div>
 
           <div className="media-icons">
-            <a target="_blank" href={socialData.discord}>
+            {/* <a target="_blank" href={socialData.discord}>
               <i className="iconlink fab fa-discord"></i>
             </a>
             <a target="_blank" href={socialData.twitter}>
               <i className="iconlink fab fa-twitter"></i>
+            </a> */}
+            <a target="_blank" href={socialData.instagram} rel="noreferrer">
+              {/* <i className="iconlink fab fa-instagram"></i> */}
+              <FontAwesomeIcon icon={faInstagram} className="iconlink" />
             </a>
-            <a target="_blank" href={socialData.instagram}>
-              <i className="iconlink fab fa-instagram"></i>
+            <a target="_blank" href={socialData.linkedin} rel="noreferrer">
+              {/* <i className="iconlink fab fa-linkedin-in"></i> */}
+              <FontAwesomeIcon icon={faLinkedinIn} className="iconlink" />
             </a>
-            <a target="_blank" href={socialData.linkedin}>
-              <i className="iconlink fab fa-linkedin-in"></i>
-            </a>
-            <a target="_blank" href={socialData.email}>
-              <i className="iconlink fa-solid fa-envelope"></i>
+            <a target="_blank" href={socialData.email} rel="noreferrer">
+              {/* <i className="iconlink fa-solid fa-envelope"></i> */}
+              <FontAwesomeIcon icon={faEnvelope} className="iconlink" />
             </a>
           </div>
         </div>
-        <ul className="my-3">
-          <img
-            src="https://admission.jdvu.ac.in/fatadmission/frontend/image/logo-black.png"
-            className="imgfooterdsc"
-          />
-        </ul>
+        <div className="my-3">
+          <img src="/ju_logo_black.png" className="imgfooterdsc" />
+        </div>
       </div>
       <div className="bottom-details">
         <div className="bottom_text">
