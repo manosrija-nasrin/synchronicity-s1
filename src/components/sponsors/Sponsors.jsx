@@ -6,7 +6,7 @@ import SectionTitle from "../lib/SectionTitle";
 //import silverSponsors from "../../data/sponsorsData/silverSponsors";
 //import bronzeSponsors from "../../data/sponsorsData/bronzeSponsors";
 import genericSponsors from "../../data/sponsorsData/genericSponsors";
-import Partners from "../../data/sponsorsData/Partners";
+import Partners from "../../data/sponsorsData/partners";
 
 /*const sponsorLists = [
   {
