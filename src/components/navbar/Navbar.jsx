@@ -1,46 +1,42 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const navbarLinks = [
   {
     link: "#about",
     name: "About",
-    icon: '/icons/about.svg'
+    icon: "/icons/about.svg",
   },
   {
     link: "#themes",
     name: "Themes",
-    icon: '/icons/themes.svg'
+    icon: "/icons/themes.svg",
   },
   {
     link: "#sponsors",
     name: "Sponsors",
-    icon: '/icons/Sponsor.svg'
+    icon: "/icons/Sponsor.svg",
   },
   {
     link: "#faqs",
     name: "FAQs",
-    icon: '/icons/FAQS.svg'
+    icon: "/icons/FAQS.svg",
   },
 ];
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const toggleNav = () => {
-    if(!isNavOpen)
-    {
-      document.querySelector('body').className='h-full overflow-y-hidden md:overflow-y-scroll';
-    }
-    else
-    {
-      document.querySelector('body').className='';
+    if (!isNavOpen) {
+      document.querySelector("body").className =
+        "h-full overflow-y-hidden md:overflow-y-scroll";
+    } else {
+      document.querySelector("body").className = "";
     }
     setIsNavOpen(!isNavOpen);
   };
 
   return (
-    <nav
-      className="flex flex-row justify-between sticky top-0 z-50 items-center py-2.5 px-8 md:px-14 bg-gray-900"
-    >
+    <nav className="flex flex-row justify-between sticky top-0 z-50 items-center py-2.5 px-8 md:px-14 bg-gray-900">
       <div className="flex items-center justify-center h-full font-semibold text-white z-30">
         synchronicity - s1
       </div>
@@ -61,7 +57,7 @@ const Navbar = () => {
         onClick={toggleNav}
         aria-label="Toggle navigation"
       >
-        <img src="/icons/hamburger.svg" alt="Menu" className="h-6"/>
+        <img src="/icons/hamburger.svg" alt="Menu" className="h-6" />
       </button>
       <ul
         className={`fixed md:hidden bg-gray-900 top-0 ${
@@ -75,7 +71,7 @@ const Navbar = () => {
           <li className="p-4 text-xl font-semibold" key={el.link}>
             <a href={el.link}>
               <div className="flex flex-row items-center">
-                <img src={el.icon} alt={el.name} className="h-6 mr-2"/>
+                <img src={el.icon} alt={el.name} className="h-6 mr-2" />
                 <span className="links">{el.name}</span>
               </div>
             </a>
