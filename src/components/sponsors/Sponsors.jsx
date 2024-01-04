@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import SectionTitle from "../lib/SectionTitle";
 
 //import titleSponsors from "../../data/sponsorsData/titleSponsors";
@@ -32,7 +33,7 @@ import Partners from "../../data/sponsorsData/Partners";
 
 const sponsorLists = [
   {
-    name: "Prize Sponsor",
+    name: "Sponsors",
     list: genericSponsors,
   },
   {
@@ -41,15 +42,29 @@ const sponsorLists = [
   },
 ];
 
+/**
+ *
+ * @param {object} props
+ *
+ * @param {string} [props.name]
+ * Name of the sponsor/partner
+ *
+ * @param {string} [props.descriptor]
+ * Sub-type of the Sponsor/Partner (optional)
+ *
+ * @param {string} [props.sponsorWebsiteURL]
+ * Website URL of the Sponsor/Partner
+ *
+ * @param {string} [props.sponsorLogoURL]
+ * Link to SVG Logo of the Sponsor/Partner
+ */
 function Sponsor(props) {
   return (
     <div key={props.name}>
-      {props.descriptor ? (
+      {props.descriptor !== "" && (
         <h1 className="block mb-8 text-xl text-center font-semibold text-primary">
           {props.descriptor}
         </h1>
-      ) : (
-        ""
       )}
       <div className="flex items-center justify-center">
         <a href={props.sponsorWebsiteURL} rel="noreferrer" target="_blank">
@@ -64,6 +79,23 @@ function Sponsor(props) {
   );
 }
 
+Sponsor.propTypes = {
+  name: PropTypes.string,
+  descriptor: PropTypes.string,
+  sponsorWebsiteURL: PropTypes.string,
+  sponsorLogoURL: PropTypes.string.isRequired,
+};
+
+/**
+ *
+ * @param {object} sponsorCategory
+ *
+ * @param {string} [sponsorCategory.name]
+ * Name of category of Sponsor - Gold/Silver/Title/Partner
+ *
+ * @param {array} [sponsorCategory.list]
+ * List of sponsors in this category
+ */
 function SponsorList({ name, list }) {
   return (
     <div key={name}>
@@ -77,6 +109,11 @@ function SponsorList({ name, list }) {
     </div>
   );
 }
+
+SponsorList.propTypes = {
+  name: PropTypes.string.isRequired,
+  list: PropTypes.array,
+};
 
 export default function Sponsors() {
   return (
