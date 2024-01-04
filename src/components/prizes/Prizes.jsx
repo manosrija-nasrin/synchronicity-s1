@@ -1,4 +1,5 @@
 import { prizesData } from "../../data/prizesData";
+import PropTypes from "prop-types";
 import SectionTitle from "../lib/SectionTitle";
 
 export default function Prize() {
@@ -33,3 +34,7 @@ function PrizeItem({ prize }) {
     </div>
   );
 }
+
+PrizeItem.propTypes = {
+  prize: PropTypes.object,
+};

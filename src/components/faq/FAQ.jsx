@@ -17,7 +17,11 @@ export default function FAQ() {
 
         <div className="w-full px-4 pt-12">
           {frequentlyAskedQuestions.map((el) => (
-            <FAQAccordionItem header={el.label} text={el.content} key={el} />
+            <FAQAccordionItem
+              header={el.label}
+              text={el.content}
+              key={el.label}
+            />
           ))}
         </div>
       </div>
