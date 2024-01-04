@@ -31,7 +31,7 @@ const genericSponsors = [
   // },
   {
     name: "ACM India",
-    // descriptor: "Prize Sponsor",
+    descriptor: "Prize Sponsor",
     sponsorWebsiteURL: "https://india.acm.org/",
     sponsorLogoURL: "/sponsorLogos/acm_india_council_logo.svg",
   },
