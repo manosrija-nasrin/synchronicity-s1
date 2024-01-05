@@ -3,8 +3,7 @@ export const prizesData = [
     icon: "./icons/goldTrophy.svg",
     type: "First Prize",
     content:
-      "The first prize will be given to a project that outstands all other submissions.",
-
+      "Free 1-year Team Plan, worth $240, to the winning team from Beeceptor",
     cashComponent: 10000,
   },
   {
@@ -23,15 +22,16 @@ export const prizesData = [
     cashComponent: 2000,
   },
   {
-    icon: "./icons/trophy2.svg",
-    type: "Best Innovative Idea",
-    content: "Your idea impressed us all!",
+    icon: "./icons/trophy.svg",
+    type: "Best UI/UX",
+    content: "Free 1-year subscription license of Axure RP Team Edition",
     cashComponent: 0,
   },
   {
-    icon: "./icons/unique.svg",
-    type: "Special Mentions",
-    content: "Thinking too out of the box, huh?",
+    icon: "./icons/trophy2.svg",
+    type: "Best Use of APIs",
+    content:
+      "Free 1-year Team Plan from Beeceptor. Create Mock APIs in minutes!",
     cashComponent: 0,
   },
   {
