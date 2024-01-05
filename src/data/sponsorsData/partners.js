@@ -17,6 +17,12 @@ const Partners = [
     sponsorWebsiteURL: "https://axure.com",
     sponsorLogoURL: "/sponsorLogos/axure_logo_175.svg",
   },
+  {
+    name: "echo3D",
+    descriptor: "3D/AR/VR Partner",
+    sponsorWebsiteURL: "https://www.echo3d.com/",
+    sponsorLogoURL: "/sponsorLogos/echo3D-dark.png",
+  },
 ];
 
 export default Partners;
