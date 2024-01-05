@@ -3,7 +3,7 @@ export const prizesData = [
     icon: "./icons/goldTrophy.svg",
     type: "First Prize",
     content:
-      "Free 1-year Team Plan, worth $240, to the winning team from Beeceptor",
+      "The first prize will be given to a project that outstands all other submissions.",
     cashComponent: 10000,
   },
   {
