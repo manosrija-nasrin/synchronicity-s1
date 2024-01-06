@@ -24,14 +24,15 @@ export const prizesData = [
   {
     icon: "./icons/trophy.svg",
     type: "Best UI/UX",
-    content: "Free 1-year subscription license of Axure RP Team Edition",
+    content:
+      "Free 1-year subscription license of Axure RP Team Edition. Create UI/UX prototypes without writing a single line of code!",
     cashComponent: 0,
   },
   {
     icon: "./icons/trophy2.svg",
     type: "Best Use of APIs",
     content:
-      "Free 1-year Team Plan from Beeceptor. Create Mock APIs in minutes!",
+      "Free 1-year Team Plan from Beeceptor. Set up Mock APIs in seconds!",
     cashComponent: 0,
   },
   {
