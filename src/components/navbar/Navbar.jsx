@@ -12,6 +12,11 @@ const navbarLinks = [
     icon: "/icons/themes.svg",
   },
   {
+    link: "#prizes",
+    name: "Prizes",
+    icon: "/icons/trophy-white.svg",
+  },
+  {
     link: "#sponsors",
     name: "Sponsors",
     icon: "/icons/Sponsor.svg",
