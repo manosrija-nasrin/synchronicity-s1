@@ -20,7 +20,7 @@ export default function FAQ() {
           titleDescription={"Get answers to your most desired questions."}
         />
 
-        <div className="w-full px-4 pt-12">
+        <div className="w-full px-8 pt-12">
           {frequentlyAskedQuestions.map((el) => (
             <FAQAccordionItem
               header={el.label}
