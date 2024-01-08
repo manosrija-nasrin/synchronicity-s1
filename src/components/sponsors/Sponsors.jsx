@@ -117,7 +117,7 @@ SponsorList.propTypes = {
 
 export default function Sponsors() {
   return (
-    <section id="sponsors" className="pt-16">
+    <section id="sponsors" className="pt-16 pb-16">
       {sponsorLists.map(SponsorList)}
     </section>
   );
