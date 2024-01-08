@@ -23,12 +23,12 @@ const frequentlyAskedQuestions = [
   {
     label: "How to register myself in the hackathon?",
     content:
-      "When the registration opens, we will provide the registration portal in the website itself, so stay tuned!",
+      "The registrations are open on Unstop! Click the Register Now button to be redirected to the synchronicity microsite on Unstop. Team leaders should register their teams, because when a member starts the registration process on Unstop, they cannot be added to another team.",
   },
   {
     label: "Is there a registration fee?",
     content:
-      "Yes. Participation in synchronicity costs Rs. 120 per person plus transaction charges.",
+      "Yes. Participation in synchronicity costs Rs. 120 per person plus transaction charges. Lunch will be provided.",
   },
   {
     label: "Can I participate as a individual?",
@@ -37,12 +37,12 @@ const frequentlyAskedQuestions = [
   {
     label: "What's in it for me?",
     content:
-      "Participants will receive certificates, access to premium services offered by our sponsors and much more! Most importantly, lunch will be provided to the participants.",
+      "You get the chance to meet new people, showcase your ideas and get a chance to take home something from the prize pool of Rs. 17K! You will also receive certificates, access to pro-tier services offered by our partners and much more!",
   },
   {
     label: "I have more questions.",
     content:
-      "Reach us directly at acmjustudentchapter@gmail.com, we would happy to help you.",
+      "Reach us directly at acmjustudentchapter@gmail.com, we would be happy to help you.",
   },
 ];
 
