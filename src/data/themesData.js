@@ -1,40 +1,59 @@
 const themesData = [
   {
-    themeImageURL: "/illustrations/environment.png",
-    themeName: "Environment",
+    themeImageURL: "/illustrations/planet-earth.png",
+    themeName: "Environmental Sustainability",
     themeDescription:
-      "The list of issues surrounding our environment go on. These environmental problems arise from conflicts between nature and humans. Develop a Solution to reduce Envirnmental problem.",
-  },
-
-  {
-    themeImageURL: "/illustrations/education.png",
-    themeName: "Education",
-    themeDescription:
-      "Since the pandemic, educational system has had to adjust to the new normal. As a result, we urge you to create something that modernises education and makes it accessible to everybody.",
+      "Address pressing environmental issues through technology and innovation. Participants will develop solutions that contribute to a sustainable future.",
+    example:
+      "Create a mobile app that helps users track their carbon footprint and suggests eco-friendly alternatives for daily activities.",
   },
   {
-    themeImageURL: "/illustrations/blockchain.png",
-    themeName: "Web3",
+    themeImageURL: "/illustrations/secure-data.png",
+    themeName: "Information Security",
     themeDescription:
-      "Web 3.0 is the third generation of internet services for websites and apps that will focus on providing a data-driven and Semantic Web employing a machine-based understanding of data.",
+      "Focus on cybersecurity challenges and solutions. Participants will work on projects to enhance data protection and privacy.",
+    example:
+      "Build a browser extension that identifies and warns users of potentially malicious websites and phishing attempts.",
   },
   {
-    themeImageURL: "/illustrations/aiml.png",
-    themeName: "AI/ML",
+    themeImageURL: "/illustrations/online-learning.png",
+    themeName: "Gamification of Education",
     themeDescription:
-      "AI is the intelligence demonstrated by computers as a result of their perception of their surroundings. Al-based devices are capable of taking independent actions in order to achieve a specific goal.",
+      "Explore the gamification of learning. Participants will develop educational games or apps to make learning more engaging.",
+    example:
+      "Create an interactive math game that helps elementary school students improve their arithmetic skills while having fun.",
+  },
+  {
+    themeImageURL: "/illustrations/united.png",
+    themeName: "Inclusive Technology",
+    themeDescription:
+      "Promote inclusivity by creating tech solutions for people with disabilities. Participants will design accessible applications and services.",
+    example:
+      "Design a mobile app that provides real-time sign language translation for deaf individuals during video calls.",
+  },
+  {
+    themeImageURL: "/illustrations/artificial-intelligence.png",
+    themeName: "AI in Everyday Life",
+    themeDescription:
+      "Harness the power of artificial intelligence in daily activities. Participants will develop AI-driven applications for various purposes.",
+    example:
+      "Develop a personal AI assistant that helps users manage their schedules, make recommendations, and provide valuable information based on user preferences.",
   },
   {
     themeImageURL: "/illustrations/healthcare.png",
-    themeName: "Health Care",
+    themeName: " Healthcare Innovation",
     themeDescription:
-      "Develop Solution to help Society Cope with the Drastic impact. The Healthcare track strives to develop splitting initiatives that address a variety of health-related issues.",
+      "Address healthcare challenges with technology. Participants will create digital health solutions for improved patient care.",
+    example:
+      "Build a telemedicine platform that connects patients with specialized doctors for remote consultations and diagnoses.",
   },
   {
-    themeImageURL: "/illustrations/innovation.png",
-    themeName: "Open Innovation",
+    themeImageURL: "/illustrations/puzzle.png",
+    themeName: "Student-Led Innovation",
     themeDescription:
-      "Have any ideas that don't fit into any of the categories above? Worry not. We encourage you to test your ideas and discover solutions to problems without any limitations.",
+      "Design projects that will benefit the student community.",
+    example:
+      " Develop a platform for students to easily find and share educational resources, study materials, and collaborative study groups.",
   },
 ];
 
