@@ -6,7 +6,12 @@ export default function FAQ() {
   return (
     <section
       id="faqs"
-      className="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+      className="relative z-20 overflow-hidden bg-white text-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+      style={{
+        backgroundImage: `url(/pattern.jpg)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="container mx-auto">
         <SectionTitle
@@ -15,7 +20,7 @@ export default function FAQ() {
           titleDescription={"Get answers to your most desired questions."}
         />
 
-        <div className="w-full px-4 pt-12">
+        <div className="w-full px-8 pt-12">
           {frequentlyAskedQuestions.map((el) => (
             <FAQAccordionItem
               header={el.label}
