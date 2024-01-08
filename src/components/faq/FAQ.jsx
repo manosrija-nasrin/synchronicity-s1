@@ -6,7 +6,7 @@ export default function FAQ() {
   return (
     <section
       id="faqs"
-      className="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+      className="relative z-20 overflow-hidden bg-white text-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
       style={{
         backgroundImage: `url(/pattern.jpg)`,
         backgroundRepeat: "no-repeat",
