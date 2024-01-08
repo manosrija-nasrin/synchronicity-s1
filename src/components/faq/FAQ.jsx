@@ -7,6 +7,11 @@ export default function FAQ() {
     <section
       id="faqs"
       className="relative z-20 overflow-hidden bg-white pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]"
+      style={{
+        backgroundImage: `url(/pattern.jpg)`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
     >
       <div className="container mx-auto">
         <SectionTitle
