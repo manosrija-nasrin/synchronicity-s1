@@ -23,6 +23,12 @@ const Partners = [
     sponsorWebsiteURL: "https://www.echo3d.com/",
     sponsorLogoURL: "/sponsorLogos/echo3D-dark.png",
   },
+  {
+    name: "certopus",
+    descriptor: "Certificate Partner",
+    sponsorWebsiteURL: "https://app.certopus.com/",
+    sponsorLogoURL: "/sponsorLogos/certopus_original.svg",
+  },
 ];
 
 export default Partners;
