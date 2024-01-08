@@ -14,11 +14,13 @@ export default function FAQ() {
       }}
     >
       <div className="container mx-auto">
-        <SectionTitle
-          preTitle={"FAQ"}
-          title={"Any Questions? Look Here"}
-          titleDescription={"Get answers to your most desired questions."}
-        />
+        <span className="text-white">
+          <SectionTitle
+            preTitle={"FAQ"}
+            title={"Any Questions? Look Here"}
+            titleDescription={"Get answers to your most desired questions."}
+          />
+        </span>
 
         <div className="w-full px-4 pt-12">
           {frequentlyAskedQuestions.map((el) => (
