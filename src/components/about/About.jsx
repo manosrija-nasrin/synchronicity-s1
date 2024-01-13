@@ -34,7 +34,7 @@ export default function About() {
           <PrimaryButton
             iconFilePath={"/icons/discord.svg"}
             buttonText={"Join our Discord Channel"}
-            buttonURL={"https://discord.gg/nsNPRVR3"}
+            buttonURL={"https://discord.gg/VGEgneAf"}
             iconAlternativeText={"discord logo"}
           />
         </div>
