@@ -29,6 +29,12 @@ const Partners = [
     sponsorWebsiteURL: "https://app.certopus.com/",
     sponsorLogoURL: "/sponsorLogos/certopus_original.svg",
   },
+  {
+    name: "mysphere",
+    descriptor: "Education Partner",
+    sponsorWebsiteURL: "https://www.mysphere.net/",
+    sponsorLogoURL: "/sponsorLogos/mysphere.png",
+  },
 ];
 
 export default Partners;
