@@ -7,12 +7,12 @@ const timelineDetails = [
   {
     cardTitle: "Registrations Start",
     title: "03rd January 2024",
-    cardSubtitle: "Participants will begin registration for the hackathon.",
+    cardSubtitle: "Registrations are live!",
   },
   {
     cardTitle: "Registrations End",
-    title: "17th January 2024",
-    cardSubtitle: "Don't wait for the last minute, register fast!",
+    title: "18th January 2024",
+    cardSubtitle: "Don't wait till the last minute, register fast!",
   },
   {
     cardTitle: "D-Day",
